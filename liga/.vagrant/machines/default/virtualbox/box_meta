@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"name":"debian/bookworm64","version":"12.20250126.1","provider":"virtualbox","directory":"boxes/debian-VAGRANTSLASH-bookworm64/12.20250126.1/amd64/virtualbox"}
+=======
+{"name":"liga-vm","version":"0","provider":"virtualbox","directory":"boxes/liga-vm/0/virtualbox"}
+>>>>>>> 2a4add77 (versio final)

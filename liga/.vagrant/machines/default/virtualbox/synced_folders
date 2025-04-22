@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"/home/jan/Documentos/DAW2/SM7-Collados/Laravel/Projectes/liga/codi","disabled":false,"__vagrantfile":true},"/home/vagrant/scripts":{"guestpath":"/home/vagrant/scripts","hostpath":"/home/jan/Documentos/DAW2/SM7-Collados/Laravel/Projectes/liga/scripts","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/jan/Documentos/DAW2/SM7-Collados/Laravel/Projectes/liga","disabled":false,"__vagrantfile":true}}}
+=======
+{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"C:/Users/jordi/OneDrive/Escritorio/DAW2/7.1 php/pjlarabel/pjlarabel/liga/codi","disabled":false,"__vagrantfile":true},"/home/vagrant/scripts":{"guestpath":"/home/vagrant/scripts","hostpath":"C:/Users/jordi/OneDrive/Escritorio/DAW2/7.1 php/pjlarabel/pjlarabel/liga/scripts","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/jordi/OneDrive/Escritorio/DAW2/7.1 php/pjlarabel/pjlarabel/liga","disabled":false,"__vagrantfile":true}}}
+>>>>>>> 2a4add77 (versio final)
