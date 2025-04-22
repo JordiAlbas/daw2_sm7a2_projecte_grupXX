@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ControladorEquipo;
 use App\Http\Controllers\PDFController;
 use App\Http\Controllers\JugadorController;
+use App\Http\Controllers\UsuarioController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +25,10 @@ Route::get('/info', function () {
 });
 
 Route::group(['middleware' => 'auth'], function () {
+
+    Route::get('/users', [UsuarioController::class, 'index'])->name('users.index');
+    Route::delete('/users/{id}', [UsuarioController::class, 'destroy'])->name('users.destroy');
+
 
     Route::get('/dashboard', function () {
         return view('dashboard');
@@ -44,7 +50,6 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/jugadores/{jugador}', [JugadorController::class, 'show'])->name('jugadores.show');
 
     Route::get('jugadores/{jugador}/pdf', [JugadorController::class, 'pdf'])->name('jugadores.pdf');
-
 });
 
 Route::middleware('auth')->group(function () {
