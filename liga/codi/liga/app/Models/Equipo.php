@@ -16,4 +16,11 @@ class Equipo extends Model
         'localizacion',
         'entrenador' 
     ];
+
+    public function jugadores()
+    {
+        return $this->hasMany(Jugador::class, 'equip');
+    }
+
 }
+

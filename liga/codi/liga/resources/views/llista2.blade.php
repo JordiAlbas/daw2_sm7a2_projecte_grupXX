@@ -1,6 +1,6 @@
 @extends('disseny')
 @section('content')
-<h1>Llista d'empleats</h1>
+<h1>Llista De Equipos</h1>
 <div class="mt-5">
   <table class="table">
     <thead>
